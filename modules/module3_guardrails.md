@@ -1,3 +1,7 @@
+# Change Log
+- Added variable evidence_mode = "strict" to enforce source only summarization.
+- Added warning messages for missing/empty or too-short sections.
+- 
 Module 3: Guardrails
 Flag missing or empty sections.
 
@@ -17,3 +21,4 @@ Flag sections <50 words.
 Apply hallucination mitigation (summarize only present content).
 
 Apply long-paper chunking if input exceeds context window.
+
